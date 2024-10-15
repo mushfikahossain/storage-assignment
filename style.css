@@ -1,0 +1,42 @@
+body {
+    background-color: burlywood;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#save{
+    background-color: seagreen;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+#save:hover {
+    background-color: rgb(35, 103, 64);
+}
+
+#clear{
+    background-color:firebrick;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#clear:hover {
+    background-color:rgb(136, 27, 27);
+}
+
